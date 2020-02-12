@@ -1,0 +1,16 @@
+{
+  "name": "dvoa-scraper",
+  "version": "1.0.0",
+  "description": "Quick utility to pull DVOA data into a different data store for easier analysis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "author": "@davidexns",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0"
+  }
+}
